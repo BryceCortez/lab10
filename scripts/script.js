@@ -13,5 +13,13 @@ input = prompt ("what is your name");
 console.log(Number(input));
 } while(!isNaN(Number(input)));
 
-alert("Hello" + input)
-alert(`Hello ${input}`)
+alert("Hello" + input);
+alert(`Hello ${input}`);
+
+let fruits = ['Apple', 'Banana']
+fruits.push = ['Orange'];
+fruits.unshift = ['Orange'];
+console.log(fruits);
+
+
+fruits.pop
